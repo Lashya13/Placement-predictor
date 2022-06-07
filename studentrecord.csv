@@ -1,0 +1,85 @@
+Name,Gender,10th %,12th %,CGPA,placement_status,Backlogs,core_concepts,coding,stay,meal_intake,social_media_usage,hrs_in_social_media,sleep(hrs),physical_activites,communication,no_of_online_courses,Library_usage,study_hours,Attendance
+Aparna M,Female,93.1,92.3,9.44,Yes (Placed),No,Beginner,Beginner,Hostel,3,Yes,3,Exactly 8,yes,Proficient,4,Below 10,0,Above 90 %
+M.Sreenandhini,Female,90,65,8.7,No (Not Placed),No,Proficient,Proficient,Dayscholar,3,Yes,7,Above 8,No,Expert,4,Below 10,Between 1 to 5,Above 90 %
+Thejaswin,Male,95,77,8.4,Yes (Placed),No,Expert,Expert,Hostel,3,No,0,Below 8,No,Expert,4,Below 10,0,Between 76 to 89
+Hari,Male,97.4,93.8,8.95,Yes (Placed),No,Beginner,Expert,Hostel,3,Yes,5,Above 8,No,Expert,3,Below 10,Between 1 to 5,Between 76 to 89
+Varshini R,Female,78,82,8.86,Yes (Placed),No,Expert,Expert,Dayscholar,3,Yes,5,Above 8,No,Expert,7,Between 11 to 20,Between 1 to 5,Between 76 to 89
+Adithya,Male,100,91.2,9.5,Yes (Placed),No,Proficient,Proficient,Dayscholar,3,No,0,Below 8,No,Proficient,17,Below 10,0,Between 76 to 89
+Rahul,Male,100,94,9.4,Yes (Placed),No,Proficient,Proficient,Hostel,3,Yes,2,Exactly 8,No,Proficient,3,Below 10,Between 1 to 5,Between 76 to 89
+Prakash Ganesan,Male,78,84,8.7,No (Not Placed),No,Expert,Beginner,Hostel,3,Yes,9,Below 8,yes,Proficient,35,Between 11 to 20,0,Above 90 %
+Praveenkumar V,Male,94,87,8.38,No (Not Placed),No,Expert,Beginner,Dayscholar,2,Yes,10,Below 8,yes,Expert,6,Below 10,Between 1 to 5,Above 90 %
+Vidhya S R,Female,100,92.9,9.65,Yes (Placed),No,Beginner,Beginner,Hostel,3,Yes,3,Below 8,yes,Beginner,10,Below 10,Between 1 to 5,Above 90 %
+Ravi Subramanian,Male,96,95.3,9.68,Yes (Placed),No,Proficient,Proficient,Hostel,3,No,0,Above 8,No,Beginner,3,Between 11 to 20,Between 1 to 5,Above 90 %
+Priyadharshni,Female,96,91,9,Yes (Placed),No,Beginner,Expert,Dayscholar,3,Yes,4,Below 8,No,Expert,9,Above 21,Between 1 to 5,Above 90 %
+Thilakshanaa A,Female,96,86,8.7,Yes (Placed),No,Proficient,Beginner,Dayscholar,3,No,0,Above 8,No,Proficient,2,Below 10,Between 1 to 5,Above 90 %
+Kaaviya harani.M,Female,93,0,7.9,Yes (Placed),No,Proficient,Proficient,Dayscholar,3,Yes,3,Below 8,yes,Proficient,5,Below 10,Between 1 to 5,Between 76 to 89
+Suvetha.T,Female,95.4,90.5,8.05,No (Not Placed),No,Expert,Beginner,Dayscholar,3,Yes,9,Exactly 8,yes,Expert,8,Between 11 to 20,Between 1 to 5,Above 90 %
+Suriya S R,Female,95,88.5,8.89,Yes (Placed),No,Beginner,Beginner,Hostel,3,No,0,Exactly 8,No,Proficient,1,Below 10,Above 5,Above 90 %
+M Naveen Kumar,Male,97,96,9.8,No (Not Placed),No,Expert,Beginner,Hostel,2,Yes,13,Below 8,yes,Proficient,1,Below 10,Between 1 to 5,Above 90 %
+Sangeeth V K,Male,88.2,77.1,7.5,Yes (Placed),Yes,Beginner,Beginner,Dayscholar,3,Yes,5,Below 8,No,Expert,1,Below 10,0,Between 76 to 89
+R.gopinath,Female,81,60,7.8,No (Not Placed),No,Beginner,Beginner,Dayscholar,1,No,0,Exactly 8,No,Expert,0,Below 10,Between 1 to 5,Above 90 %
+Karthik Raja B,Male,82,86,7.5,Yes (Placed),No,Beginner,Beginner,Dayscholar,3,Yes,7,Above 8,yes,Proficient,5,Below 10,Between 1 to 5,Above 90 %
+Sourishkumaar S,Male,97,87,76,Yes (Placed),No,Beginner,Proficient,Dayscholar,3,No,0,Above 8,yes,Expert,10,Below 10,Between 1 to 5,Between 76 to 89
+Gowtham.S,Male,74.4,89.8,7.5,No (Not Placed),No,Beginner,Beginner,Dayscholar,3,Yes,9,Above 8,yes,Beginner,0,Below 10,Between 1 to 5,Above 90 %
+Kavin Kumar R,Male,96,89,9.6,Yes (Placed),No,Proficient,Beginner,Hostel,3,Yes,4,Above 8,No,Proficient,2,Below 10,Between 1 to 5,Above 90 %
+Srinidhi R,Female,95,89,8.316,Yes (Placed),No,Proficient,Proficient,Hostel,3,Yes,4,Above 8,yes,Proficient,5,Below 10,0,Between 76 to 89
+Divona Mary,Female,98.2,90,9.5,Yes (Placed),No,Beginner,Expert,Hostel,3,Yes,5,Above 8,No,Expert,10,Below 10,Between 1 to 5,Between 76 to 89
+Rithika.SK,Female,98,90,88,Yes (Placed),No,Beginner,Beginner,Dayscholar,3,Yes,2,Exactly 8,yes,Proficient,6,Below 10,0,Above 90 %
+Ashwin Pranaav K S,Male,86.8,80.5,9.164,Yes (Placed),No,Proficient,Proficient,Dayscholar,3,Yes,3,Exactly 8,yes,Proficient,3,Below 10,0,Above 90 %
+SREEDHARAN S,Male,72,74,8.5,No (Not Placed),No,Expert,Beginner,Dayscholar,3,Yes,7,Above 8,yes,Expert,5,Below 10,0,Between 76 to 89
+Saravanan M,Male,89,81,7.6,No (Not Placed),Yes,Expert,Expert,Dayscholar,3,Yes,8,Exactly 8,yes,Expert,2,Below 10,Between 1 to 5,Above 90 %
+A.Densiton,Male,86,83.7,8.6,No (Not Placed),No,Beginner,Beginner,Dayscholar,3,No,0,Exactly 8,No,Beginner,5,Below 10,0,Between 76 to 89
+Kishore S,Male,96,65,8,No (Not Placed),No,Proficient,Expert,Dayscholar,3,No,0,Above 8,yes,Proficient,16,Between 11 to 20,Between 1 to 5,Above 90 %
+M.Deepadharshan,Male,70,66,7.63,Yes (Placed),No,Beginner,Beginner,Dayscholar,3,Yes,3,Exactly 8,yes,Expert,5,Between 11 to 20,Between 1 to 5,Above 90 %
+Shravya R,Female,492,95.1,9.43,Yes (Placed),No,Expert,Expert,Dayscholar,3,Yes,4,Below 8,yes,Proficient,4,Below 10,0,Above 90 %
+Naveenkumar,Male,98,94,9,Yes (Placed),No,Expert,Expert,Hostel,3,Yes,4,Above 8,yes,Expert,3,Below 10,Between 1 to 5,Above 90 %
+Pragathi R,Female,98.4,93,9.45,Yes (Placed),No,Expert,Expert,Hostel,2,Yes,2,Exactly 8,No,Expert,4,Below 10,Between 1 to 5,Above 90 %
+Ashwin,Male,85.6,70,8.6,No (Not Placed),No,Beginner,Beginner,Dayscholar,1,No,0,Exactly 8,No,Beginner,2,Between 11 to 20,Between 1 to 5,Above 90 %
+Divya Prakash A,Male,71.8,72.3,9.5,No (Not Placed),No,Beginner,Beginner,Hostel,3,Yes,8,Below 8,yes,Beginner,2,Below 10,0,Above 90 %
+Gokula priya S,Female,97.4,93.5,9,Yes (Placed),No,Beginner,Beginner,Hostel,3,No,0,Above 8,yes,Beginner,0,Below 10,0,Between 76 to 89
+Jayanthi M,Female,98.2,92,8.77,Yes (Placed),No,Beginner,Beginner,Dayscholar,2,Yes,5,Below 8,No,Beginner,8,Below 10,Between 1 to 5,Above 90 %
+Amudhan,Male,98,87,9.43,Yes (Placed),No,Proficient,Proficient,Dayscholar,3,Yes,1,Below 8,yes,Expert,15,Between 11 to 20,0,Above 90 %
+Ibrahim Kalil JH,Male,92,93,9,Yes (Placed),No,Proficient,Proficient,Hostel,2,No,0,Below 8,No,Expert,3,Below 10,Between 1 to 5,Between 76 to 89
+Sivaram Shabari,Male,98,95,8.2,Yes (Placed),No,Expert,Expert,Dayscholar,3,Yes,3,Above 8,yes,Expert,4,Below 10,Between 1 to 5,Above 90 %
+Kamali B,Female,98.8,92.8,9.03,Yes (Placed),No,Expert,Expert,Hostel,3,Yes,4,Exactly 8,No,Expert,5,Between 11 to 20,Between 1 to 5,Above 90 %
+Jenfero N,Female,95,96,9.3,Yes (Placed),No,Beginner,Beginner,Hostel,3,Yes,10,Exactly 8,No,Beginner,4,Below 10,Between 1 to 5,Above 90 %
+ABINAYA G A,Female,99,94,8.6,Yes (Placed),No,Beginner,Beginner,Dayscholar,3,Yes,4,Exactly 8,yes,Proficient,5,Below 10,Between 1 to 5,Between 76 to 89
+Rohini,Female,98.8,95.3,9.21,Yes (Placed),No,Proficient,Beginner,Hostel,3,Yes,5,Above 8,yes,Proficient,2,Below 10,0,Above 90 %
+Bhoomika Reddy,Female,98,80.1,8.5,Yes (Placed),No,Beginner,Beginner,Hostel,3,Yes,3,Exactly 8,No,Proficient,6,Below 10,Between 1 to 5,Between 76 to 89
+M.shilpashri,Female,96,85,8.01,No (Not Placed),No,Beginner,Beginner,Hostel,3,Yes,4,Above 8,yes,Proficient,15,Below 10,0,Between 76 to 89
+Raghavi,Female,99,96,9,No (Not Placed),No,Beginner,Beginner,Hostel,3,Yes,10,Exactly 8,yes,Expert,5,Below 10,Between 1 to 5,Above 90 %
+Srija S,Female,87,90,7.95,No (Not Placed),No,Beginner,Beginner,Dayscholar,3,Yes,3,Below 8,yes,Expert,4,Below 10,Between 1 to 5,Above 90 %
+Pradeep,Male,97.4,83.7,7.95,Yes (Placed),No,Expert,Expert,Dayscholar,3,Yes,5,Above 8,No,Expert,5,Below 10,Between 1 to 5,Between 76 to 89
+P.Deepthi,Female,98.4,84.9,8.6,Yes (Placed),No,Expert,Expert,Dayscholar,3,Yes,5,Above 8,No,Expert,5,Below 10,Between 1 to 5,Above 90 %
+Anandhaoviya GE,Female,98.3,97,9.72,Yes (Placed),No,Beginner,Beginner,Hostel,3,Yes,4,Exactly 8,yes,Expert,4,Below 10,Between 1 to 5,Above 90 %
+Anandhakumar K,Male,83.8,88.3,7.51,No (Not Placed),No,Beginner,Beginner,Dayscholar,3,Yes,3,Exactly 8,No,Beginner,8,Below 10,Between 1 to 5,Above 90 %
+Dividarshan,Male,80.5,88.4,8.52,No (Not Placed),No,Proficient,Proficient,Hostel,3,Yes,3,Below 8,yes,Expert,8,Below 10,Between 1 to 5,Between 76 to 89
+Srijill R,Male,92,65.6,8.27,Yes (Placed),No,Expert,Expert,Hostel,3,No,0,Exactly 8,yes,Expert,5,Below 10,Between 1 to 5,Between 76 to 89
+Sharan balaji,Male,98,91.2,8.7,Yes (Placed),No,Expert,Beginner,Dayscholar,3,Yes,5,Above 8,No,Expert,5,Below 10,Between 1 to 5,Between 76 to 89
+Harshitha S K,Female,98.2,93,9.51,Yes (Placed),No,Expert,Expert,Hostel,3,Yes,2,Below 8,No,Expert,21,Below 10,Between 1 to 5,Above 90 %
+Jeyanthpranav K S,Male,100,92,8,Yes (Placed),No,Beginner,Beginner,Dayscholar,3,Yes,24,Exactly 8,yes,Beginner,0,Below 10,0,Below 75
+Rahini V,Female,98.4,92.5,9.17,No (Not Placed),No,Beginner,Beginner,Hostel,3,Yes,2,Above 8,No,Proficient,5,Below 10,Between 1 to 5,Above 90 %
+Divyadharshini E,Female,98.2,91,9.15,Yes (Placed),No,Expert,Expert,Hostel,3,Yes,3,Below 8,yes,Expert,10,Below 10,Between 1 to 5,Above 90 %
+Pavithra N,Female,97.4,93.8,9.47,Yes (Placed),No,Beginner,Beginner,Dayscholar,1,Yes,4,Exactly 8,yes,Beginner,6,Below 10,Between 1 to 5,Between 76 to 89
+Harini K K,Female,100,83.2,9.28,Yes (Placed),No,Beginner,Beginner,Dayscholar,3,Yes,4,Above 8,No,Beginner,5,Below 10,0,Between 76 to 89
+ASHWIN KUMAR E,Male,98,87,8.48,Yes (Placed),No,Expert,Beginner,Hostel,3,No,0,Above 8,yes,Expert,5,Below 10,Between 1 to 5,Between 76 to 89
+Gokula Priya K,Female,95.6,90.5,8.45,Yes (Placed),No,Beginner,Beginner,Dayscholar,3,No,0,Below 8,No,Proficient,3,Below 10,Between 1 to 5,Above 90 %
+Manju S,Female,100,96.4,9.5,Yes (Placed),No,Beginner,Proficient,Hostel,1,Yes,3,Exactly 8,No,Proficient,7,Between 11 to 20,Between 1 to 5,Above 90 %
+Praveen Kumar V,Male,93,93,8,Yes (Placed),No,Beginner,Expert,Dayscholar,3,Yes,3,Exactly 8,yes,Beginner,4,Below 10,0,Above 90 %
+Mounesa P,Female,96.6,87.3,9.1,Yes (Placed),No,Beginner,Beginner,Dayscholar,3,No,0,Above 8,No,Proficient,4,Below 10,0,Above 90 %
+Kritya Shree S,Female,87,89.6,9.2,No (Not Placed),No,Proficient,Proficient,Dayscholar,3,Yes,4,Below 8,No,Expert,8,Below 10,Between 1 to 5,Above 90 %
+N.Abinayasri,Female,98,95,9,No (Not Placed),No,Proficient,Proficient,Hostel,3,Yes,11,Above 8,No,Proficient,5,Below 10,0,Above 90 %
+Karthik,Male,96,92,8.65,Yes (Placed),No,Beginner,Proficient,Hostel,3,Yes,5,Below 8,yes,Proficient,3,Below 10,Between 1 to 5,Between 76 to 89
+Mukesh,Male,75,89,9,Yes (Placed),No,Expert,Expert,Dayscholar,1,Yes,2,Exactly 8,yes,Proficient,9,Below 10,Between 1 to 5,Above 90 %
+Elangkapilann S,Male,93,81,8.44,Yes (Placed),No,Expert,Expert,Hostel,3,Yes,5,Exactly 8,yes,Expert,2,Below 10,Between 1 to 5,Between 76 to 89
+Ashwin Balaji,Male,93.4,95.9,9.15,Yes (Placed),No,Proficient,Proficient,Hostel,3,No,0,Exactly 8,No,Proficient,3,Below 10,Between 1 to 5,Above 90 %
+Pranesh,Male,98,94.8,9.04,Yes (Placed),No,Beginner,Beginner,Hostel,3,No,0,Above 8,yes,Beginner,3,Below 10,0,Above 90 %
+Vignesh,Male,97.4,90.8,9.1,Yes (Placed),No,Proficient,Proficient,Dayscholar,3,Yes,8,Below 8,No,Proficient,4,Below 10,Between 1 to 5,Between 76 to 89
+YUVA PRASANTH M,Male,86,80,7.6,Yes (Placed),No,Expert,Expert,Hostel,3,Yes,1,Below 8,yes,Proficient,5,Between 11 to 20,Between 1 to 5,Above 90 %
+Reena,Female,99,93,9,Yes (Placed),No,Expert,Expert,Hostel,3,Yes,3,Exactly 8,yes,Proficient,20,Below 10,0,Above 90 %
+Elangovan D,Male,69,63,8.79,No (Not Placed),No,Expert,Beginner,Dayscholar,3,Yes,2,Below 8,No,Beginner,4,Below 10,Between 1 to 5,Above 90 %
+Ajai A,Male,75,64,8.3,No (Not Placed),No,Proficient,Beginner,Dayscholar,3,Yes,8,Above 8,yes,Beginner,3,Below 10,Between 1 to 5,Above 90 %
+R.Shreeya,Female,92,86.5,7.45,Yes (Placed),No,Beginner,Beginner,Dayscholar,3,Yes,13,Exactly 8,yes,Proficient,2,Below 10,Between 1 to 5,Above 90 %
+Rithik,Male,90.3,76.1,8.05,Yes (Placed),No,Expert,Expert,Hostel,3,No,0,Below 8,yes,Expert,3,Below 10,Between 1 to 5,Between 76 to 89
+Nikitha Ramesh,Female,71.8,85.2,63.1,Yes (Placed),No,Beginner,Beginner,Dayscholar,3,Yes,4,Above 8,yes,Expert,3,Below 10,Between 1 to 5,Above 90 %
+Nishitha,Female,100,87.6,7.52,Yes (Placed),No,Beginner,Proficient,Hostel,3,Yes,4,Below 8,No,Expert,0,Below 10,0,Above 90 %

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+<ul class="nav">
+  <li><a href="{{url_for('rules')}}">Rules</a></li>
+  
+</ul>
+ <div class="login">
+	<h1>Predict Placement Status</h1>
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+        <input type="number" step=any name="10th %" placeholder="10th %" required="required" />
+		<input type="number" step=any name="12th %" placeholder="12th %" required="required" />
+    <input type="number"step=any  name="CGPA" placeholder="CGPA" required="required" />
+    <input type="text" name="Backlogs" placeholder="Backlogs" required="required" />
+    <input type="text" name="Coding" placeholder="Coding" required="required" />
+	<input type="text" name="Stay" placeholder="Stay" required="required" />
+	<input type="text" name="Physical Activities" placeholder="Physical Activities" required="required" />
+	<input type="text" name="Communication" placeholder="Communication" required="required" />
+	<input type="text" name="Number of online courses" placeholder="Number of online courses" required="required" />
+	<input type="text" name="Attendence" placeholder="Attendence" required="required" />
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>

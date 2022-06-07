@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>Rules</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="rulestyle.css">
+  
+</head>
+
+<body>
+
+
+<div class="rules">
+  
+<!--****************
+Centered Title
+Tags used:
+      <center>
+      <h1>
+*****************-->
+<center>
+  <h1>
+    <b>
+      Rule For Entering Values
+    </b>
+  </h1>
+</center>
+
+<!--****************
+Welcome Text
+Tags used:
+      <p>    | Paragraph Tag.
+      <a>    | Link Tag. 
+      <i>    | Italics.
+      <br>   | Breaks up text.
+*****************-->
+
+  
+
+  
+  
+  
+  
+
+
+<!--****************
+Sectional Paragraphs
+Tags used:
+      <ul>    | Unordered List.
+      <li>    | List Item. 
+      <input> | Input box.
+      <h2>    | Heading size 2.
+      <p>     | Paragraph Tag.
+      <br>    | Break.
+*****************-->
+<ul>
+  
+    
+    <h2>Rules</h2>
+	
+	<p><b>10th Percentage<br></b>
+	 <br> •  Enter your 10th Percentage.
+    
+	
+<br>      
+<br>
+
+<p><b>12th Percentage<br></b>
+	 <br> •  Enter your 12th Percentage.
+    
+	
+<br>      
+<br>
+
+<p><b>CGPA<br></b>
+	 <br> •  Enter your CGPA till 5th semester.
+    
+	
+<br>      
+<br>
+	
+    <p><b>Backlogs <br></b>
+	 <br> •  0 indicates no backlog. 
+      <br> • 1 indicates having backlogs.
+	
+<br>      
+<br>
+<b>Coding<br></b>
+
+	   <br> •  1 indicates beginer. 
+       <br> •   2 indicates Expert. 
+	    <br> •  3 indicates Proficient. 
+	 
+<br>
+      
+<br>
+<b>Stay<br></b>
+
+	    <br> •  0 indicates Hostel. 
+        <br> •  1 indicates Dayscholar. 
+	
+<br>
+      
+<br>
+<b>Physical Activities<br></b>
+
+	 <br> • 0 indicates if they not involves any of the physical activites in a day. 
+      <br> • 1 indicates if they involves any of the physical activites in a day.
+	  
+<br>
+      
+<br>
+<b>Communication<br></b>
+
+	  <br> •  1 indicates beginer. 
+      <br> •  2 indicates Expert. 
+	  <br> •  3 indicates Proficient. 
+	 
+<br>
+      
+<br>
+<b>Number of Online Courses<br></b>
+  <br> • total number of online courses they have completed. 
+
+
+<br>
+      
+<br>
+<b>Attendence<br></b>
+
+	   <br> • 1 indicates attendence percentage below 75.
+       <br> • 2 indicates attendence percentage between 76 to 89.
+	   <br> •   3 indicates attendence percentage above 90.
+	 
+<br>
+      
+<br>
+</li>
+  
+</ul>
+</div>
+
+
+</body>
+</html>
