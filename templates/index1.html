@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+<ul class="nav">
+  <li><a href="{{url_for('rules')}}">Rules</a></li>
+  
+</ul>
+ <div class="login">
+ <br>
+	<h1>Placement Predictor</h1>
+  <br>
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+ <input type="number" step=0.01 name="10th %" placeholder="SSLC (Ex: 87.6)" required="required" />
+		<input type="number" step=0.01 name="12th %" placeholder="HSC (Ex:96.5) "required="required" />
+    <input type="number" step=0.01 name="CGPA" placeholder="CGPA (Ex:8.5)" required="required" />
+    <input type="text" name="Backlogs" placeholder="Backlogs ( Enter 1 if Yes, Enter 0 if No)" required="required" />
+    <input type="text" name="Coding" placeholder="Coding Skills (Enter 1 - Begineer, 2 - Expert, 3 - Proficient)" required="required" />
+	<input type="text" name="Stay" placeholder="Mode of Stay (Enter 1- Dayscholar, 0 - Hostel)" required="required" />
+	<input type="text" name="Physical Activities" placeholder="Physical Activities (Enter 1 if Yes, Enter 0 if No)" required="required" />
+	<input type="text" name="Communication" placeholder="Communication (Enter 1 - Begineer, 2 - Expert, 3 - Proficient)" required="required" />
+	<input type="text" name="Number of online courses" placeholder="Number of online courses (Ex:13)" required="required" />
+	<input type="text" name="Attendence" placeholder="Attendence(Enter 1-below 75%,2-between 76-89%,3-above 90%)" required="required" />
+        <br>
+        &nbsp; &nbsp; <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+  <!-- {{ prediction_text }} -->
+
+ </div>
+
+
+</body>
+</html>

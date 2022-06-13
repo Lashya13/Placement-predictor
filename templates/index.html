@@ -18,25 +18,34 @@
   
 </ul>
  <div class="login">
-	<h1>Predict Placement Status</h1>
+ <br>
+	<h1>Placement Predictor</h1>
+  <br>
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-        <input type="number" step=any name="10th %" placeholder="10th %" required="required" />
-		<input type="number" step=any name="12th %" placeholder="12th %" required="required" />
-    <input type="number"step=any  name="CGPA" placeholder="CGPA" required="required" />
-    <input type="text" name="Backlogs" placeholder="Backlogs" required="required" />
-    <input type="text" name="Coding" placeholder="Coding" required="required" />
-	<input type="text" name="Stay" placeholder="Stay" required="required" />
-	<input type="text" name="Physical Activities" placeholder="Physical Activities" required="required" />
-	<input type="text" name="Communication" placeholder="Communication" required="required" />
-	<input type="text" name="Number of online courses" placeholder="Number of online courses" required="required" />
-	<input type="text" name="Attendence" placeholder="Attendence" required="required" />
-        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    <p> <label for="SSLC" > SSLC : <span><input type="number" id ="SSLC" step=any name="10th %" placeholder=" Ex:89.8 " required="required" /></span> </label> </p>
+       
+		<p> <label for="HSC" > HSC : <span><input type="number" id="HSC" step=any name="12th %" placeholder="Ex: 90.8" required="required" /></span> </label></p>
+     <p> <label for="CGPA" > CGPA : <span><input type="number" id="CGPA" step=any  name="CGPA" placeholder="Ex: 8.7" required="required" /></span> </label></p>
+     <p> <label for="Backlogs" > Backlogs : 
+   
+   
+     <span><input type="search" ID="Backlogs" list ="Backlogs" name="Backlogs" placeholder="Enter 1 if Yes, Enter 0 if No"  required="required" selectBoxOptions="Yes;No"/></span> </label></p>
+     
+    
+    <p> <label for="Coding Skills" > Coding Skills : <span><input type="text" name="Coding" placeholder="Enter 1 - Begineer, 2 - Expert, 3 - Proficient" required="required" /></span> </label></p>
+<p> <label for="Mode of Stay" > Mode of Stay : <span>	<input type="text" name="Stay" placeholder="Enter 1- Dayscholar, 0 - Hostel" required="required" /></span> </label></p>
+	<p> <label for="Physical activities" > Physical activities : <span><input type="text" name="Physical Activities" placeholder="Enter 1 if Yes, Enter 0 if No" required="required" /></span> </label></p>
+	<p> <label for="Communication skills" > Communication skills : <span><input type="text" name="Communication" placeholder="Enter 1 - Begineer, 2 - Expert, 3 - Proficient" required="required" /></span> </label></p>
+	<p> <label for="No of online courses done" > No of online courses done : <span><input type="text" name="Number of online courses" placeholder="Ex: 15" required="required" /></span> </label></p>
+	<p> <label for="Attendence Percentage" > Attendence Percentage : <span><input type="text" name="Attendence" placeholder="Enter 1-below 75% , 2-between 76 to 89%, 3-above 90%" required="required" /></span> </label></p>
+        <br>
+        &nbsp; &nbsp; <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
 
    <br>
    <br>
-   {{ prediction_text }}
+  <!-- {{ prediction_text }} -->
 
  </div>
 

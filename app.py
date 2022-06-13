@@ -7,7 +7,7 @@ model = pickle.load(open('model.pkl', 'rb'))
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('index1.html')
 
 @app.route('/rules')  
 def rules():
@@ -25,8 +25,12 @@ def predict():
     prediction = model.predict(final_features)
 
     output = round(prediction[0])
+    if output == 1:
+        output = "High"
+    elif output ==0:
+        output = "Low"
 
-    return render_template('index.html', prediction_text='Placement status should be  {}'.format(output))
+    return render_template('result.html', prediction_text='Your chances for Placement should be  {}'.format(output))
     
 @app.route('/predict_api',methods=['POST'])
 def predict_api():

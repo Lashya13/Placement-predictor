@@ -66,11 +66,27 @@ ul.nav li.current a {
 	margin: -150px 0 0 -150px;
 	width:400px;
 	height:40px;
+
+}
+form{
+	display: table;
 }
 
 .login h1 { color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; }
-
+p{
+	display: table-row;
+}
+label {
+	display: inline-block;
+	width: 99%;
+	white-space: nowrap;
+	text-align: right;
+	vertical-align: top;
+	cursor: pointer;
+	
+}
 input { 
+	display: table-cell;
 	width: 100%; 
 	margin-bottom: 10px; 
 	background: rgba(0,0,0,0.3);
