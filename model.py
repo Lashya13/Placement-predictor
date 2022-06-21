@@ -39,9 +39,15 @@ modelF =  SelectKBest(chi2,k=12)
 new = modelF.fit(X,Y)
 x_new = new.transform(X)
 cols = new.get_support(indices=True)
+features_new = X.iloc[:,cols]
+features_new.drop(['Gender','hrs_in_social_media'],axis=1, inplace=True)
+features_new.head(5)
 
 X = dataset.drop(["placement_status",'Gender','social_media_usage','core_concepts','sleep(hrs)','Library_usage','meal_intake','study_hours','hrs_in_social_media'] , axis=1)
 Y = dataset.placement_status
+
+#X = features_new.drop(["placement_status"] , axis=1)
+#Y = features_new.placement_status
 
 X_train, X_test, Y_train, Y_test = train_test_split(X,Y, test_size=0.30,random_state=23,stratify=Y)
 
@@ -51,18 +57,24 @@ from sklearn.svm import SVC
 
 from sklearn.naive_bayes import GaussianNB
 
-
-#model1 = GaussianNB()
-model1 = LogisticRegression()
-model1.fit(X_train, Y_train)
-
-pickle.dump(model1, open('model.pkl','wb'))
-
-# Loading model to compare the results
-model = pickle.load(open('model.pkl','rb'))
+from sklearn.tree import DecisionTreeClassifier # Import Decision Tree Classifier
+from sklearn.model_selection import train_test_split # Import train_test_split function
+from sklearn import metrics
 
 
-y_pred = model1.predict(X_test)
+
+clf = DecisionTreeClassifier(criterion="entropy", max_depth=3)
+
+clf = clf.fit(X_train,Y_train)
+
+
+y_pred = clf.predict(X_test)
+
+pickle.dump(clf, open('clf.pkl','wb'))
+
+
+model = pickle.load(open('clf.pkl','rb'))
+
 
 test_acc = accuracy_score(Y_test, y_pred)
 print("The Accuracy for Test Set is {}".format(test_acc*100))

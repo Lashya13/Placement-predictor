@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, render_template
 import pickle
 
 app = Flask(__name__)
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('clf.pkl', 'rb'))
 
 @app.route('/')
 def home():
@@ -30,7 +30,7 @@ def predict():
     elif output ==0:
         output = "Low"
 
-    return render_template('result.html', prediction_text='Your chances for Placement should be  {}'.format(output))
+    return render_template('result.html', prediction_text='Your chances for Getting Placed should be  {}'.format(output))
     
 @app.route('/predict_api',methods=['POST'])
 def predict_api():
